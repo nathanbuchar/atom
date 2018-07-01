@@ -514,7 +514,7 @@ fileIcons:
 		icon: "babel"
 		match: [
 			[/\.(babelrc|babelrc\.js|languagebabel|babel)$/i, "medium-yellow"]
-			[/babel(\.[\w\-]+)*\.conf(ig)?\./i, "medium-yellow", priority: 3]
+			[/babel(\.[\w\-]+)*\.conf(ig)?\./i, "medium-yellow", priority: 4]
 			[".babelignore", "dark-yellow"]
 		]
 
