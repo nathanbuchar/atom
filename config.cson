@@ -512,10 +512,9 @@ fileIcons:
 
 	Babel:
 		icon: "babel"
-		priority: 2
 		match: [
 			[/\.(babelrc|babelrc\.js|languagebabel|babel)$/i, "medium-yellow"]
-			[/babel(\.[\w\-]+)*\.conf(ig)?\./i, "medium-yellow"]
+			[/babel(\.[\w\-]+)*\.conf(ig)?\./i, "medium-yellow", priority: 2]
 			[".babelignore", "dark-yellow"]
 		]
 
